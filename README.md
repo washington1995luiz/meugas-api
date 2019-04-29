@@ -13,6 +13,9 @@
   ou
   node index.js
   ```
-
+# Users
+  
+  usuarios sem conta podem acessar normalmente,
+  tendo acesso lista de produtos no geral, por região, e podendo salvar itens como favorito.
   
   

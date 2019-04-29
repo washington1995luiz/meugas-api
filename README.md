@@ -17,9 +17,9 @@
 # Users - Usuários
   
   Usuarios sem conta podem acessar normalmente,
-  tendo acesso lista de produtos no geral, por região, e podendo salvar itens como favorito.
+  tendo acesso a lista de produtos no geral, por região, e podendo salvar itens como favorito.
   
 # Stores - Lojas
 
   As lojas precisam de uma conta para poderem publicar seus produtos, editá-los e exclui-los.
-  Tendo acesso a lista geral, lista de produtos da loja por ID da loja.
+  Tendo acesso a lista geral, lista de produtos da loja através do ID da loja.

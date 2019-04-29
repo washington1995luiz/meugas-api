@@ -1,9 +1,10 @@
 # meugas-api
   
-  API sendo desenvolvida em NodeJS.
+  API sendo desenvolvida em NodeJS e MongoDB.
   
 # Instalação e inicialização do servidor
-  para baixar todas as dependências
+  
+  Para baixar todas as dependências
   ```npm
   npm i 
   ```
@@ -13,9 +14,12 @@
   ou
   node index.js
   ```
-# Users
+# Users - Usuários
   
-  usuarios sem conta podem acessar normalmente,
+  Usuarios sem conta podem acessar normalmente,
   tendo acesso lista de produtos no geral, por região, e podendo salvar itens como favorito.
   
-  
+# Stores - Lojas
+
+  As lojas precisam de uma conta para poderem publicar seus produtos, editá-los e exclui-los.
+  Tendo acesso a lista geral, lista de produtos da loja por ID da loja.

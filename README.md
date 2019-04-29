@@ -4,7 +4,7 @@
   
 # Instalação
   
-  ´´´npm
+```npm
   npm i 
   
   para baixar todas as dependências

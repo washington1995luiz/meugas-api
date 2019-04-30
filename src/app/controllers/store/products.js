@@ -30,24 +30,19 @@ router.post('/create/:id', async (req, res) => {
         let setCity;
 
         const products = await Products.create({ store: req.params.id, title, image, price, state, city });
-        if (await City.findOne({state})) {
-            if (await City.findOne({cityList: city})) {
+        if (await City.findOne({ state })) {
+            if (await City.findOne({ cityList: city })) {
             } else {
-                setCity = await City.findOne({state});
+                setCity = await City.findOne({ state });
                 await setCity.cityList.push(city);
                 await setCity.save();
-
             }
-
-            
-
-           // setCity = await City
         } else {
             setCity = await City.create({ state, cityList: [city] });
             await setCity.save();
-            
 
-     }
+
+        }
         await products.save();
 
         return res.status(200).send({ products });

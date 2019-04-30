@@ -49,7 +49,7 @@ router.get('/list/state/:state/city/:city', async (req, res) => {
 
     try {
         const products = await Products.find({ state, city });
-
+      
         return res.status(200).send(products);
     }
     catch (err) {

@@ -4,6 +4,8 @@
   
 # Instalação e inicialização do servidor
   
+  É necessário npm,NodeJS e MongoDB
+  
   Para baixar todas as dependências
   ```npm
   npm i 
